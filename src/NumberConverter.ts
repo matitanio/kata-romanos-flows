@@ -6,6 +6,8 @@ export class NumberConverter {
     let inicio = 0;
 
     const romanos: { [key: string]: number } = {
+      "L" : 50,
+      "XL": 40,
       "X" : 10,
       "IX" : 9,
       "V" : 5, 
@@ -46,9 +48,9 @@ export class NumberConverter {
 
     
 
-    for(let i = inicio; i<numero; i++){
-      roman += "I";
-    }
+    // for(let i = inicio; i<numero; i++){
+    //   roman += "I";
+    // }
 
     return roman;
   }

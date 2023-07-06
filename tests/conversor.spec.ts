@@ -53,6 +53,10 @@ describe('COMO CONVERTIR NUMEROS ARABICOS A NUMEROS ROMANOS', () => {
     
     expect(numberConverter.arabicToRomanNumber(34))
     .toBe('XXXIV');
+    expect(numberConverter.arabicToRomanNumber(51))
+    .toBe('LI');
+    expect(numberConverter.arabicToRomanNumber(40))
+    .toBe('XL');
 
   });
 
