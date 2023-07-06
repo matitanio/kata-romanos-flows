@@ -33,6 +33,26 @@ describe('COMO CONVERTIR NUMEROS ARABICOS A NUMEROS ROMANOS', () => {
       .toBe('IX');
     expect(numberConverter.arabicToRomanNumber(10))
       .toBe('X');
+      expect(numberConverter.arabicToRomanNumber(11))
+    .toBe('XI');
+  expect(numberConverter.arabicToRomanNumber(12))
+    .toBe('XII');
+  expect(numberConverter.arabicToRomanNumber(14))
+    .toBe('XIV');
+    expect(numberConverter.arabicToRomanNumber(16))
+    .toBe('XVI');
+
+    expect(numberConverter.arabicToRomanNumber(20))
+    .toBe('XX');
+
+    expect(numberConverter.arabicToRomanNumber(21))
+    .toBe('XXI');
+
+    expect(numberConverter.arabicToRomanNumber(30))
+    .toBe('XXX');
+    
+    expect(numberConverter.arabicToRomanNumber(34))
+    .toBe('XXXIV');
 
   });
 
