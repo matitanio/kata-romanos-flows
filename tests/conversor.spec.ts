@@ -19,6 +19,8 @@ describe('COMO CONVERTIR NUMEROS ARABICOS A NUMEROS ROMANOS', () => {
       .toBe('II');
     expect(numberConverter.arabicToRomanNumber(3))
       .toBe('III');
+    expect(numberConverter.arabicToRomanNumber(4))
+      .toBe('IV');  
     expect(numberConverter.arabicToRomanNumber(5))
       .toBe('V');
     expect(numberConverter.arabicToRomanNumber(6))
@@ -27,6 +29,11 @@ describe('COMO CONVERTIR NUMEROS ARABICOS A NUMEROS ROMANOS', () => {
       .toBe('VII');
     expect(numberConverter.arabicToRomanNumber(8))
       .toBe('VIII');
+      expect(numberConverter.arabicToRomanNumber(9))
+      .toBe('IX');
+    expect(numberConverter.arabicToRomanNumber(10))
+      .toBe('X');
+
   });
 
 
